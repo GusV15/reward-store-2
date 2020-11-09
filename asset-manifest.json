@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/reward-store/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/reward-store/static/js/main.add3e6c7.chunk.js",
+    "main.js.map": "/reward-store/static/js/main.add3e6c7.chunk.js.map",
+    "runtime-main.js": "/reward-store/static/js/runtime-main.9ab9e25e.js",
+    "runtime-main.js.map": "/reward-store/static/js/runtime-main.9ab9e25e.js.map",
+    "static/js/2.20804eaa.chunk.js": "/reward-store/static/js/2.20804eaa.chunk.js",
+    "static/js/2.20804eaa.chunk.js.map": "/reward-store/static/js/2.20804eaa.chunk.js.map",
+    "index.html": "/reward-store/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/reward-store/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.20804eaa.chunk.js.LICENSE.txt": "/reward-store/static/js/2.20804eaa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ab9e25e.js",
+    "static/js/2.20804eaa.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.add3e6c7.chunk.js"
+  ]
+}
