@@ -1,2 +1,0 @@
-(this["webpackJsonpstore-velasquez-gustavo"]=this["webpackJsonpstore-velasquez-gustavo"]||[]).push([[0],{10:function(e,t,s){"use strict";s.r(t);var n=s(0),r=s(1),c=s.n(r),o=s(3),a=s.n(o);s(9);var u=function(){return Object(n.jsx)("div",{className:"App",children:"Reward Store"})};a.a.render(Object(n.jsx)(c.a.StrictMode,{children:Object(n.jsx)(u,{})}),document.getElementById("root"))},9:function(e,t,s){}},[[10,1,2]]]);
-//# sourceMappingURL=main.add3e6c7.chunk.js.map
