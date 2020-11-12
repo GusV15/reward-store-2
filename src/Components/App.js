@@ -5,6 +5,7 @@ import Filters from "./Filters";
 import ProductsContainer from "./ProductsContainer";
 import Footer from "./Footer";
 import {URL_USER, URL_ADD_POINTS, URL_PRODUCTS} from "../utils/endpoints";
+import "./styles.css";
 
 // Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmE5ZmQ0OGI5NTIzZTAwMjA3ZTFmYzEiLCJpYXQiOjE2MDQ5NzU5NDR9._SMZVMV6an8csDM46O2Q1rYU3JGDmIdFmGH7z56wFuA
 function App() {
@@ -72,7 +73,6 @@ function App() {
       {console.log(data.points)}
       {console.log(data.products)}
       <Header />
-      <Banner />
       <Filters />
       <ProductsContainer />
       <Footer />

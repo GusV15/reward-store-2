@@ -1,0 +1,55 @@
+@import "./App.scss";
+
+.filters__container {
+    width: 85%;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    border-bottom: 0.1em solid $border-color;
+    .filters {
+        display: flex;
+        font-size: 1em;
+        font-weight: 600;
+        p {
+            display: flex;
+            align-items: center;
+            color: $font-color-third;
+            span {
+                color: $secondary-font-color;
+                padding-left: 0.4em;
+            }
+        }
+        ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            li {
+                margin: 0 0.8em;
+                padding: 0.5em 0.8em;
+                border-radius: 1em;
+                cursor: pointer;
+            }
+            li:hover {
+                transform: scale(1.05);
+                transition-duration: 0.3s;
+            }
+            :first-child {
+                color: $font-color;
+                background-color: $bkg-color-secondary;
+            }
+            :nth-child(n+2) {
+                color: $font-color-secondary;
+                background-color: $bkg-color;
+            }
+        }
+    }
+    .arrow__left {
+        cursor: pointer;
+        img:hover {
+            transform: scale(1.1);
+            transition-duration: 0.3s;
+        }
+    }
+}

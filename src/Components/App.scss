@@ -1,0 +1,15 @@
+$font-color: #FFFFFF;
+$font-color-secondary: #ACACAC;
+$font-color-third: #616161;
+$border-color: #E9E9E9;
+$bkg-color-primary: #F9F9F9;
+$secondary-font-color: #A3A3A3;
+$bkg-color: #EDEDED;
+$bkg-color-secondary: #0AD4FA;
+
+.App {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: $bkg-color-primary;
+}

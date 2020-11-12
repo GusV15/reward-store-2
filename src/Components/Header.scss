@@ -1,0 +1,17 @@
+$bkg-color: #FFFFFF;
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: $bkg-color;
+    .user__info {
+        display: flex;
+        justify-content: space-between;
+        img[alt="reward-store"] {
+            margin: 0 2em;
+        }
+
+    }
+    
+}

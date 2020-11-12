@@ -1,0 +1,34 @@
+@import "./App.scss";
+
+.user__info__container {
+    display: flex;
+    align-items: center;
+    & > span {
+        height: 50px;
+        line-height: 50px;
+        margin: 5px;
+        font-size: 0.8em;
+        font-weight: 600;
+        color: $font-color-third;
+    }
+    .coin__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        margin: 0 2em 0 1em;
+        padding: 0 0.3em;
+        background-color: $bkg-color;
+        border-radius: 1em;
+        span {
+            margin-bottom: 0.2em;
+            font-size: 0.8em;
+            font-weight: 600;
+            color: $font-color-third; 
+        }
+        img {
+            width: 1.2em;
+            margin-left: 0.2em;
+        }
+    }
+}
